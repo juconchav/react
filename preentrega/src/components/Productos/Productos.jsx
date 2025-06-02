@@ -1,8 +1,7 @@
-
-function ItemListContainer(props){
+function Productos(){
     return (
-      <div className = "articles">
-        <h1>{props.titulo}</h1>
+      <div>
+        <h3>Nuestros productos</h3>
           <ul>
             <li>articulo w</li>
             <li>articulo e</li>
@@ -14,4 +13,4 @@ function ItemListContainer(props){
     );
 }
 
-export default ItemListContainer;
+export default Productos;
