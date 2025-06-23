@@ -1,13 +1,14 @@
-//import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-//import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Navbar from "./components/NavBar/NavBar";
 import Error from "./components/Error/Error";
 import Contacto from "./components/Contacto/Contacto";
 import Productos from "./components/Productos/Productos";
 import Home from "./components/Home/Home";
 import Nosotros from "./components/Nosotros/Nosotros";
+import Works from "./components/Works/Works";
+import Cart from "./components/Cart/Cart";
+import ProductDetails from "./components/ProductDetails/ProductDetails";
 
 function App() {
   return (
@@ -15,11 +16,14 @@ function App() {
       
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout/>}>
+          <Route path="/" element={<Navbar/>}>
             <Route index element={<Home/>}/>
             <Route path="/productos" element={<Productos/>}/>
             <Route path="/contacto" element={<Contacto/>}/>
             <Route path="/nosotros" element={<Nosotros/>}/>
+            <Route path="/works" element={<Works/>}/>
+            <Route path="/cart" element={<Cart/>}/>
+            <Route path="/productodetail" element={<ProductDetails/>}/>
             <Route path="/*" element={<Error/>}/>
           </Route>
         </Routes>

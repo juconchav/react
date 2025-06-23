@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+.footer {
+    /*background-color: #943DFF;*/
+    background-color: #EADDF3FF;
+    font-family: Lato;
+    color:#232323;
+    padding: 20px;
+}
+

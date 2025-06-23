@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+.titleWorks {
+    font-family: Lato;
+    position: relative;
+    margin: 25px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+  }
+
+  .bajadaWorks {
+    font-family: Lato;
+    position: relative;
+    margin: 15px 0 15px 0;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 7px;
+  }
